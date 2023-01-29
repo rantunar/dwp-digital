@@ -1,0 +1,16 @@
+application-error-codes:
+  - errorCode: ERROR01
+    importance: High
+    description: for any application errors/technical errors
+  - errorCode: ERROR02
+    importance: Normal
+    description: the supplied account id is less than 1
+  - errorCode: ERROR03
+    importance: Normal
+    description: maximum ticket count allowed is more than the configured limit
+  - errorCode: ERROR04
+    importance: Normal
+    description: at least one adult ticket must be present at the time of purchase
+  - errorCode: ERROR05
+    importance: Normal
+    description: purchase information supplied is null
